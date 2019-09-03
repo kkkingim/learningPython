@@ -1,9 +1,12 @@
-# coding: utf-8
+"""
+day1 - a.py
+"""
 
-if __name__ == "__main__":
+import sys
 
-    for i in range(10):
-        print(i)
-    
-    print("Hello World")
-    
+
+print(sys.platform)
+print(2**100)
+
+x = "Spam!"
+print(x * 10)
